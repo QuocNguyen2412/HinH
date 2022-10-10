@@ -1,7 +1,7 @@
 # HìnH
 This is a social media app I made for my family. I wanted to use my skills to create a project that feels personal so I made this to grow closer with my family. 
 
-![HinH frontpage](https://github.com/quocnguyen2412/hinh/public/imgs/index.png)
+![HinH frontpage](https://github.com/QuocNguyen2412/HinH/public/imgs/index.png)
  
 ## How It's Made:
  
