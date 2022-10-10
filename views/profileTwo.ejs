@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="aqua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HìnH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<div class="navbar bg-base-300">
+  <div class="navbar-start">
+  </div>
+  <div class="navbar-center bg-secondary">
+    <a class="btn btn-ghost normal-case text-5xl" href="/feed/<%= user.id %>">HìnH</a>
+  </div>
+  <div class="navbar-end">
+    <div class="flex-none">
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle">
+          <div class="indicator">
+            <i class="fa-regular fa-user fa-2xl"></i>
+          </div>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          <li>
+            <a class="justify-between" href="/profile/<%= user._id%>"> 
+              Profile
+            </a>
+          </li>
+          <li><a href="/logout">Logout</a></li>
+        </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="credentialsTwo">
+  <div class="creCre">
+    <div class="card card-compact w-50 bg-base-100 shadow-xl proPro">
+          <div class="card-body">
+            <h2 class="card-title"><strong>User Name</strong>: <%= user.userName %></h2>
+        </div>
+    </div>
+  </div>
+</div>
+        <div class="">
+          <div class="rowRow ">
+            <ul class="row artboard artboard-horizontal phone-6">
+              <% for(var i=0; i<posts.length; i++) {%>
+                <div class="spicyTwo">
+                <li class="spicy">
+                  <a href="/post/<%= posts[i]._id%>">
+                    <img class="img-fluid" src="<%= posts[i].image%>">
+        
+                    <div class="grid h-20 card bg-base-300 rounded-none">
+                      <h3 class="bg-secondary"><a class="userNameFont"href="/profileTwo/<%= posts[i].user %>"><%= posts[i].userName %></a></h3>
+                      <span class="captionFont bg-secondary-focus">  <%= posts[i].caption %> </span>
+                    </div> 
+                  </a>
+        
+                </li>
+                </div>
+              <% } %>
+              </ul>
+        </div>  
+
+<%- include('partials/footer') -%>
+
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+</html>
