@@ -1,7 +1,7 @@
 # HìnH
 This is a social media app I made for my family. I wanted to use my skills to create a project that feels personal so I made this to grow closer with my family. 
 
-![HinH frontpage](public\imgs\index.png)
+![HinH frontpage](https://github.com/quocnguyen2412/hinh/public/imgs/index.png)
  
 ## How It's Made:
  
@@ -18,11 +18,11 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, met
 
 The selected tech used by the app is with the intention to provide the best user experience and security of information. 
 
-![HinH scroll](public\imgs\scrollingGif.gif)
+![HinH scroll](https://github.com/quocnguyen2412/hinh/public/imgs/scrollingGif.gif)
 
-![HinH comment](public\imgs\addACommentGIf.gif)
+![HinH comment](https://github.com/quocnguyen2412/hinh/public/imgs/addACommentGIf.gif)
 
-![HinH profile](public\imgs\profileGif.gif)
+![HinH profile](https://github.com/quocnguyen2412/hinh/public/imgs/profileGif.gif)
 
  
 ## Optimizations
