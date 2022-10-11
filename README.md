@@ -20,7 +20,7 @@ The selected tech used by the app is with the intention to provide the best user
 
 ![HinH scroll](https://github.com/QuocNguyen2412/HinH/blob/main/public/imgs/scrollingGif.gif)
 
-![HinH comment]https://github.com/QuocNguyen2412/HinH/blob/main/public/imgs/addACommentGIf.gif)
+![HinH comment](https://github.com/QuocNguyen2412/HinH/blob/main/public/imgs/addACommentGIf.gif)
 
 ![HinH profile](https://github.com/QuocNguyen2412/HinH/blob/main/public/imgs/profileGif.gif)
 
